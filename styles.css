@@ -1,0 +1,29 @@
+body{
+    background-color: #002488;
+    margin-top: 30px;
+    color: #000
+}
+
+@font-face {
+    font-family: "clock";
+    src: url("font/DS-DIGIT.TTF") format("truetype");
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    font-family: "clock", sans-serif;
+    
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 50px 20px;
+    background-color: #000;
+    color: #fff;
+    font-size: 60px;
+}
