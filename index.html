@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- tag is an HTML setting that makes web pages responsive and readable on mobile devices -->
         <title>ScoreBoard</title>
         <link rel="stylesheet" href="styles.css">
     </head>   
@@ -11,14 +11,27 @@
 
             <div class="home">
                 <h1>HOME</h1>
-                <h2 id="homeScore">12</h2>
+                <h2 id="homeScore">0</h2>
+                <button id="homeOne">+1</button>
+                    <button id="homeTwo">+2</button>
+                    <button id="homeThree">+3</button>
+            </div>
+
+            <div class="timer">
+                <h3 id="timer">00:00</h3>
+                <div>
+                    <button class="timerBtn">START</button>
+                    <button class="timerBtn">END</button>
+                </div>
             </div>
 
             <div class="guest">
                 <h1>GUEST</h1>
-                <h2 id="awayScore">14</h2>
+                <h2 id="awayScore">0</h2>
+                <button id="awayOne">+1</button>
+                <button id="awayTwo">+2</button>
+                <button id="awayThree">+3</button>
             </div>
-
         </div>
         <script src="script.js"></script>
     </body>

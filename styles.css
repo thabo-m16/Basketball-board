@@ -17,6 +17,7 @@ body{
 
 h1{
     font-size: 60px;
+    text-shadow: 3px 3px 5px #000000;
 }
 
 h2{
@@ -26,4 +27,28 @@ h2{
     background-color: #000;
     color: #fff;
     font-size: 60px;
+}
+
+button{
+    font-size: 20px;
+    padding: 5px 5px;
+    margin: 10px;
+    border: 1px dashed #ff0000;
+    border-radius: 6px;
+    font-family: "clock", sans-serif;
+    color: #fff;
+    background-color: #ff0000;
+    box-shadow: 4px 4px 10px #000000; /*box-shadow is a CSS property that adds a shadow effect to an element, creating depth and visual interest.*/
+}
+
+.timer{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /*flex-direction is a CSS property that defines the direction of the main axis in a flex container, determining how flex items are laid out within the container.*/
+}
+
+.timerBtn{
+    font-size: 12px;
 }
