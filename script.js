@@ -2,7 +2,7 @@ let homeScore = document.getElementById("homeScore")
 let awayScore = document.getElementById("awayScore")
 let count = 0
 let countAway = 0
-
+let timer
 function homeOne(){
     count+=1
     homeScore.textContent = count
@@ -31,4 +31,13 @@ function awayTwo(){
 function awayThree(){
     countAway+=3
     awayScore.textContent = countAway
+}
+
+function startTimer(){
+
+}
+
+function endTimer(){
+    clearTimeout(timer)
+    document.getElementById("timer").innerHTML = timer
 }
